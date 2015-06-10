@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CommentID" representedClassName="CommentID" syncable="YES">
+        <attribute name="commentID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="stories" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Stories" inverseName="commentID" inverseEntity="Stories" syncable="YES"/>
+    </entity>
+    <entity name="Stories" representedClassName="Stories" syncable="YES">
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="storyID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="commentID" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CommentID" inverseName="stories" inverseEntity="CommentID" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CommentID" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Stories" positionX="0" positionY="63" width="128" height="120"/>
+    </elements>
+</model>

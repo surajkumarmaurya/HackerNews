@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C2BF22B17156AC2B8189AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758D791BBBBC7D5888E81FB /* Foundation.framework */; };
+		028331031AC4B75F9F1AC015 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDB20E19AD757FECF4F8C88 /* MobileCoreServices.framework */; };
+		0502A20944CFDA61D6A24972 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 44A021689160F6DC5AE0E987 /* UIImageView+AFNetworking.h */; };
+		0E8D294B16BC6E6F3DB76957 /* Pods-HackerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1116E5E45081B0A3720F7A4F /* Pods-HackerNews-dummy.m */; };
+		0EA726AA2A6082E366ADB07F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C153FFD7131D308B1A1A8DD /* SystemConfiguration.framework */; };
+		17674656EEC717D72765B822 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75250C31ECBDE403868D6F86 /* UIProgressView+AFNetworking.h */; };
+		27CB80703E0A6D3C6F0F26A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F25B0A166C027BA0D9BCE38 /* Security.framework */; };
+		2A9766CB3ABF2816A9758178 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AD6C1C78291A4F401F4566 /* UIAlertView+AFNetworking.m */; };
+		300BC01F2C11038A1790CA05 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 810186DFB0AA9CFF2A9827E0 /* AFURLConnectionOperation.h */; };
+		37922108D0A496EAA71BCC33 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2082BFA2CCB298D0425D430 /* AFHTTPRequestOperationManager.h */; };
+		3FD75661BDD576543DA0D297 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FF215D1AC99B4751FFE939FB /* UIWebView+AFNetworking.m */; };
+		40DDD1869D63C12075A2D375 /* Pods-HackerNews-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3211B12BA9FF87F9848115 /* Pods-HackerNews-Reachability-dummy.m */; };
+		43DD20AB30F102F1595DF63F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321FED4CF3D6E07AC023F238 /* CoreGraphics.framework */; };
+		492F7F74BFF1626BBD04B208 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 706F31AD57238B2D4A4291A0 /* UIRefreshControl+AFNetworking.h */; };
+		4AD57807AA5AE6A80A9CEFB9 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E365CEC7559A54FBBC6936 /* AFNetworking.h */; };
+		4B47E59934507DF3DDA3F550 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4ABF18D82B0F03A01B89D1 /* MBProgressHUD.h */; };
+		543EBA0302F6CEFDF6E7AC65 /* Pods-HackerNews-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCED3363A06433BCC00BBECB /* Pods-HackerNews-MBProgressHUD-dummy.m */; };
+		639297715B9FD95BA088A57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758D791BBBBC7D5888E81FB /* Foundation.framework */; };
+		6659D2CA99F514A019102459 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F8E4E031C15C64606DAD6 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		68566C5CF255370B55CE1B37 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E782510645F4DE63C840BC /* Reachability.m */; };
+		6D8518824FB08BCB3F276BB6 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 497FC420A9A17807040A82A1 /* UIAlertView+AFNetworking.h */; };
+		6EF00A11E2F10A7D1A8F97D2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 107B7BB7A42FBF66E1DF1BD8 /* UIActivityIndicatorView+AFNetworking.h */; };
+		72C5D713AF219D6BC8A324C7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BAF7F92C777D1E4A700A6F /* UIButton+AFNetworking.h */; };
+		746A64D8E43B0E8822987A3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321FED4CF3D6E07AC023F238 /* CoreGraphics.framework */; };
+		7906217632EAFDA3C25EE06E /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8B333745AFA3FFF8A4DDAB /* AFURLRequestSerialization.h */; };
+		7BC039C80BB43CA287696F7A /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D892BADC649F2A9CC139F6C4 /* Reachability.h */; };
+		7C7B948CE201DCD8E20D8B07 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CE76CC6567D09ECE3D1178CF /* AFSecurityPolicy.h */; };
+		82CD63A393F0AAF891E06C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758D791BBBBC7D5888E81FB /* Foundation.framework */; };
+		89D7539F4727D8E2BD54F151 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F05CFD775F051471B3F885A6 /* AFURLSessionManager.m */; };
+		8A664C0F9E5BA32A23CB40CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C153FFD7131D308B1A1A8DD /* SystemConfiguration.framework */; };
+		8AF8AC8A8DBEDE86A8137E8C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A6439B05A8AAB0F0387EC4 /* AFNetworkActivityIndicatorManager.h */; };
+		8B483D03401F7FA0931A9445 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D386203759539095178A3274 /* UIRefreshControl+AFNetworking.m */; };
+		90080AEB90BCE9B27DE6A729 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 169D67C316B31BFF08415B9B /* AFURLResponseSerialization.h */; };
+		9159C022F86418BC22FBA6E7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DA7EA25E2E57A57F518AD3 /* AFHTTPRequestOperation.m */; };
+		965FF0CF4EDB50F49FB2C6F2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 164E30D924823ACA29B0368D /* UIImageView+AFNetworking.m */; };
+		97E7DDD375AB4D45C9EB3EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758D791BBBBC7D5888E81FB /* Foundation.framework */; };
+		A9C83956DC4DF685390CFD1D /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D53A8F656263702BEF8AB61 /* UIActivityIndicatorView+AFNetworking.m */; };
+		ACE1075E4CD376EA7B1B2070 /* Pods-HackerNews-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DD91D594542D92677DF030 /* Pods-HackerNews-AFNetworking-dummy.m */; };
+		B3EB293E8D1035B51AEC1D8C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78F2151C71505FDA6C9C90 /* AFURLResponseSerialization.m */; };
+		C22ED1135DC217D4B477318D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF678C962927774990F30B1 /* AFNetworkReachabilityManager.m */; };
+		C3148BDFE22FD22F0B908983 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862C799E670871EA0C42AA4 /* AFNetworkActivityIndicatorManager.m */; };
+		C60D8791B960C68A80D08FE5 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C808FBA5A3164BB41265B /* UIButton+AFNetworking.m */; };
+		CCEC9AF4718149095211B442 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A92EA039D6B442BAAE9A88D /* AFNetworkReachabilityManager.h */; };
+		CDEA20C2944F532170D961AD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4985BBE825764941C1C74713 /* AFSecurityPolicy.m */; };
+		D24D0B80D756A0DAD622DD24 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 29050DFF664A546D7724404E /* UIProgressView+AFNetworking.m */; };
+		D414B824A775AFFD6BD4CB10 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E12FD7C75CFB2B9B0AEB9A /* AFHTTPSessionManager.m */; };
+		D828A40006E1063F53C7F09D /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B89AA4AD92688599C67C310 /* AFHTTPRequestOperation.h */; };
+		DC3C617FFFEA569AF9EE4587 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8D4534B63B464A4704CAD /* AFURLConnectionOperation.m */; };
+		E132E9DDDE74F783137A6ED5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F26C2AA1F437EFE03B7968 /* AFURLRequestSerialization.m */; };
+		E4A809BCAAC7835D0EAEE3A0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0A400556BDB00766D942E /* AFHTTPRequestOperationManager.m */; };
+		E7931E78DFBB45377B4F5B56 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F804AA3988420087AD005A92 /* AFURLSessionManager.h */; };
+		E7C4325FC15BBDAC79CA6CA5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C80710235D794EA674F6831 /* UIWebView+AFNetworking.h */; };
+		EDE988D60AEC4A57CFD17F1C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E19A03BF94BF1139E1407A /* AFHTTPSessionManager.h */; };
+		EFD9C8E9B72747600790A2A4 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F994F69C51FEB6987EF39BEC /* UIKit+AFNetworking.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25D3D2982C1C33EADBBC3AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53E887443ED8A8411853DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A498446D2E057F9F49E7995F;
+			remoteInfo = "Pods-HackerNews-AFNetworking";
+		};
+		4631CE60E449D9A339813B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53E887443ED8A8411853DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83181B90B27CE1A37C40184;
+			remoteInfo = "Pods-HackerNews-Reachability";
+		};
+		CDE4D0FC656916CE3CC6EB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53E887443ED8A8411853DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1928C829F113FC32F7BE067;
+			remoteInfo = "Pods-HackerNews-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107B7BB7A42FBF66E1DF1BD8 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		1116E5E45081B0A3720F7A4F /* Pods-HackerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-dummy.m"; sourceTree = "<group>"; };
+		12064BEF9EFE11C9B1D0A96E /* Pods-HackerNews-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		13DA7EA25E2E57A57F518AD3 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		164E30D924823ACA29B0368D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		169D67C316B31BFF08415B9B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		1A92EA039D6B442BAAE9A88D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1C1443AE187DB2314152D8C1 /* Pods-HackerNews-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		1E56F1B25674088874D06FC8 /* Pods-HackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		1EE589201C00E912CEA63F4F /* libPods-HackerNews-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2835B965A9364F8B079AE713 /* Pods-HackerNews-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		2862C799E670871EA0C42AA4 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		28F26C2AA1F437EFE03B7968 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		29050DFF664A546D7724404E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		321FED4CF3D6E07AC023F238 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3A1CCB644EAFC38EC9318210 /* libPods-HackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F25B0A166C027BA0D9BCE38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		42E782510645F4DE63C840BC /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		44A021689160F6DC5AE0E987 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		46A6439B05A8AAB0F0387EC4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		48BAF7F92C777D1E4A700A6F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		497FC420A9A17807040A82A1 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		4985BBE825764941C1C74713 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4CDB20E19AD757FECF4F8C88 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		53DD91D594542D92677DF030 /* Pods-HackerNews-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		564E5FC2FE55A35A0C0A3190 /* libPods-HackerNews-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D53A8F656263702BEF8AB61 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		5F78F2151C71505FDA6C9C90 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5FE4D47F1A5C18FE026D061C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6928321259B56F106C5223A9 /* Pods-HackerNews-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-Reachability.xcconfig"; sourceTree = "<group>"; };
+		706F31AD57238B2D4A4291A0 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		74FCE200C521CECCD68E96DC /* Pods-HackerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		75250C31ECBDE403868D6F86 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		7758D791BBBBC7D5888E81FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E365CEC7559A54FBBC6936 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7B89AA4AD92688599C67C310 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		7BA0A400556BDB00766D942E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		7D8B333745AFA3FFF8A4DDAB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7E6912BA9B39E8AA32197FC4 /* Pods-HackerNews-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		80B8D4534B63B464A4704CAD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		810186DFB0AA9CFF2A9827E0 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8C153FFD7131D308B1A1A8DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8C80710235D794EA674F6831 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		8E3211B12BA9FF87F9848115 /* Pods-HackerNews-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-Reachability-dummy.m"; sourceTree = "<group>"; };
+		9DFCCE932C98D62FF4DBB8AE /* Pods-HackerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EB2B684EA19708FAED86CD5 /* Pods-HackerNews-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-environment.h"; sourceTree = "<group>"; };
+		A9AD6C1C78291A4F401F4566 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		C0B3CF84B6E22F5820CD1E88 /* libPods-HackerNews-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C7EDB456837EA0964ACA7C /* Pods-HackerNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-resources.sh"; sourceTree = "<group>"; };
+		CAF678C962927774990F30B1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC50F3905ABE3923656EE841 /* Pods-HackerNews-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		CE11F758DC9E19085A6C3BC7 /* Pods-HackerNews-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-Reachability-prefix.pch"; sourceTree = "<group>"; };
+		CE76CC6567D09ECE3D1178CF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D386203759539095178A3274 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		D892BADC649F2A9CC139F6C4 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D94F8E4E031C15C64606DAD6 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D978036112FE0DF0AD5BBD7D /* Pods-HackerNews-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		DD4ABF18D82B0F03A01B89D1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E57C808FBA5A3164BB41265B /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		EBD88FA2ECD32FDB330E2656 /* Pods-HackerNews-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		F05CFD775F051471B3F885A6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		F1EBCA8A7D39A4F34A1CEB2D /* Pods-HackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		F2082BFA2CCB298D0425D430 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		F2E12FD7C75CFB2B9B0AEB9A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F7E19A03BF94BF1139E1407A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F804AA3988420087AD005A92 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		F994F69C51FEB6987EF39BEC /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FCED3363A06433BCC00BBECB /* Pods-HackerNews-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		FF215D1AC99B4751FFE939FB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71ECB36741B80102EB433E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639297715B9FD95BA088A57F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B5DBE068E6C8C7F0631FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD63A393F0AAF891E06C09 /* Foundation.framework in Frameworks */,
+				8A664C0F9E5BA32A23CB40CF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD0DD752DEE0A5CDDEDAA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DD20AB30F102F1595DF63F /* CoreGraphics.framework in Frameworks */,
+				00C2BF22B17156AC2B8189AB /* Foundation.framework in Frameworks */,
+				028331031AC4B75F9F1AC015 /* MobileCoreServices.framework in Frameworks */,
+				27CB80703E0A6D3C6F0F26A4 /* Security.framework in Frameworks */,
+				0EA726AA2A6082E366ADB07F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB641B4FBE4D9582710C4D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746A64D8E43B0E8822987A3E /* CoreGraphics.framework in Frameworks */,
+				97E7DDD375AB4D45C9EB3EEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0604AED2E7DFA47138F58E3D /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CE76CC6567D09ECE3D1178CF /* AFSecurityPolicy.h */,
+				4985BBE825764941C1C74713 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		1875D323572DF80FE7D8CEE2 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B333745AFA3FFF8A4DDAB /* AFURLRequestSerialization.h */,
+				28F26C2AA1F437EFE03B7968 /* AFURLRequestSerialization.m */,
+				169D67C316B31BFF08415B9B /* AFURLResponseSerialization.h */,
+				5F78F2151C71505FDA6C9C90 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		2BB281A2B3575C5C5522A041 = {
+			isa = PBXGroup;
+			children = (
+				5FE4D47F1A5C18FE026D061C /* Podfile */,
+				A55AB21A232F3E9EB301971A /* Frameworks */,
+				5BE2792BBDD744CB8882B32C /* Pods */,
+				B85B6D41CA4327A1EF22763C /* Products */,
+				D7501B8246575DD081B92EDF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0E05D1DD1E9E90E5505A3B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				321FED4CF3D6E07AC023F238 /* CoreGraphics.framework */,
+				7758D791BBBBC7D5888E81FB /* Foundation.framework */,
+				4CDB20E19AD757FECF4F8C88 /* MobileCoreServices.framework */,
+				3F25B0A166C027BA0D9BCE38 /* Security.framework */,
+				8C153FFD7131D308B1A1A8DD /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		482D104B03D6B4E43A739C2E /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				7B89AA4AD92688599C67C310 /* AFHTTPRequestOperation.h */,
+				13DA7EA25E2E57A57F518AD3 /* AFHTTPRequestOperation.m */,
+				F2082BFA2CCB298D0425D430 /* AFHTTPRequestOperationManager.h */,
+				7BA0A400556BDB00766D942E /* AFHTTPRequestOperationManager.m */,
+				810186DFB0AA9CFF2A9827E0 /* AFURLConnectionOperation.h */,
+				80B8D4534B63B464A4704CAD /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		4FD7454B1617377176E8E125 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2835B965A9364F8B079AE713 /* Pods-HackerNews-MBProgressHUD.xcconfig */,
+				EBD88FA2ECD32FDB330E2656 /* Pods-HackerNews-MBProgressHUD-Private.xcconfig */,
+				FCED3363A06433BCC00BBECB /* Pods-HackerNews-MBProgressHUD-dummy.m */,
+				CC50F3905ABE3923656EE841 /* Pods-HackerNews-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HackerNews-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		5BE2792BBDD744CB8882B32C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC0CFA9FD9CCBA021922FF4A /* AFNetworking */,
+				9F3196715F579EED00BB044A /* MBProgressHUD */,
+				DC2047E8AB68DDA07F4A1DFA /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F3196715F579EED00BB044A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DD4ABF18D82B0F03A01B89D1 /* MBProgressHUD.h */,
+				D94F8E4E031C15C64606DAD6 /* MBProgressHUD.m */,
+				4FD7454B1617377176E8E125 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A55AB21A232F3E9EB301971A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0E05D1DD1E9E90E5505A3B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78016D00B385B5B145E0D48 /* Pods-HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				9DFCCE932C98D62FF4DBB8AE /* Pods-HackerNews-acknowledgements.markdown */,
+				74FCE200C521CECCD68E96DC /* Pods-HackerNews-acknowledgements.plist */,
+				1116E5E45081B0A3720F7A4F /* Pods-HackerNews-dummy.m */,
+				9EB2B684EA19708FAED86CD5 /* Pods-HackerNews-environment.h */,
+				C9C7EDB456837EA0964ACA7C /* Pods-HackerNews-resources.sh */,
+				F1EBCA8A7D39A4F34A1CEB2D /* Pods-HackerNews.debug.xcconfig */,
+				1E56F1B25674088874D06FC8 /* Pods-HackerNews.release.xcconfig */,
+			);
+			name = "Pods-HackerNews";
+			path = "Target Support Files/Pods-HackerNews";
+			sourceTree = "<group>";
+		};
+		A97C6425D77BBA958C9F397B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6912BA9B39E8AA32197FC4 /* Pods-HackerNews-AFNetworking.xcconfig */,
+				D978036112FE0DF0AD5BBD7D /* Pods-HackerNews-AFNetworking-Private.xcconfig */,
+				53DD91D594542D92677DF030 /* Pods-HackerNews-AFNetworking-dummy.m */,
+				12064BEF9EFE11C9B1D0A96E /* Pods-HackerNews-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HackerNews-AFNetworking";
+			sourceTree = "<group>";
+		};
+		B85B6D41CA4327A1EF22763C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CCB644EAFC38EC9318210 /* libPods-HackerNews.a */,
+				C0B3CF84B6E22F5820CD1E88 /* libPods-HackerNews-AFNetworking.a */,
+				1EE589201C00E912CEA63F4F /* libPods-HackerNews-MBProgressHUD.a */,
+				564E5FC2FE55A35A0C0A3190 /* libPods-HackerNews-Reachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C374C1E77AF319512EB1D19E /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				F7E19A03BF94BF1139E1407A /* AFHTTPSessionManager.h */,
+				F2E12FD7C75CFB2B9B0AEB9A /* AFHTTPSessionManager.m */,
+				F804AA3988420087AD005A92 /* AFURLSessionManager.h */,
+				F05CFD775F051471B3F885A6 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		C57B02615116B5A39FE6009E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1A92EA039D6B442BAAE9A88D /* AFNetworkReachabilityManager.h */,
+				CAF678C962927774990F30B1 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		D7501B8246575DD081B92EDF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78016D00B385B5B145E0D48 /* Pods-HackerNews */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DC2047E8AB68DDA07F4A1DFA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D892BADC649F2A9CC139F6C4 /* Reachability.h */,
+				42E782510645F4DE63C840BC /* Reachability.m */,
+				F4F5BE7EBCC1B01F8F0FD10D /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		EAC357F9F9385D2D60CE92E1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				46A6439B05A8AAB0F0387EC4 /* AFNetworkActivityIndicatorManager.h */,
+				2862C799E670871EA0C42AA4 /* AFNetworkActivityIndicatorManager.m */,
+				107B7BB7A42FBF66E1DF1BD8 /* UIActivityIndicatorView+AFNetworking.h */,
+				5D53A8F656263702BEF8AB61 /* UIActivityIndicatorView+AFNetworking.m */,
+				497FC420A9A17807040A82A1 /* UIAlertView+AFNetworking.h */,
+				A9AD6C1C78291A4F401F4566 /* UIAlertView+AFNetworking.m */,
+				48BAF7F92C777D1E4A700A6F /* UIButton+AFNetworking.h */,
+				E57C808FBA5A3164BB41265B /* UIButton+AFNetworking.m */,
+				44A021689160F6DC5AE0E987 /* UIImageView+AFNetworking.h */,
+				164E30D924823ACA29B0368D /* UIImageView+AFNetworking.m */,
+				F994F69C51FEB6987EF39BEC /* UIKit+AFNetworking.h */,
+				75250C31ECBDE403868D6F86 /* UIProgressView+AFNetworking.h */,
+				29050DFF664A546D7724404E /* UIProgressView+AFNetworking.m */,
+				706F31AD57238B2D4A4291A0 /* UIRefreshControl+AFNetworking.h */,
+				D386203759539095178A3274 /* UIRefreshControl+AFNetworking.m */,
+				8C80710235D794EA674F6831 /* UIWebView+AFNetworking.h */,
+				FF215D1AC99B4751FFE939FB /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		F4F5BE7EBCC1B01F8F0FD10D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6928321259B56F106C5223A9 /* Pods-HackerNews-Reachability.xcconfig */,
+				1C1443AE187DB2314152D8C1 /* Pods-HackerNews-Reachability-Private.xcconfig */,
+				8E3211B12BA9FF87F9848115 /* Pods-HackerNews-Reachability-dummy.m */,
+				CE11F758DC9E19085A6C3BC7 /* Pods-HackerNews-Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HackerNews-Reachability";
+			sourceTree = "<group>";
+		};
+		FC0CFA9FD9CCBA021922FF4A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				77E365CEC7559A54FBBC6936 /* AFNetworking.h */,
+				482D104B03D6B4E43A739C2E /* NSURLConnection */,
+				C374C1E77AF319512EB1D19E /* NSURLSession */,
+				C57B02615116B5A39FE6009E /* Reachability */,
+				0604AED2E7DFA47138F58E3D /* Security */,
+				1875D323572DF80FE7D8CEE2 /* Serialization */,
+				A97C6425D77BBA958C9F397B /* Support Files */,
+				EAC357F9F9385D2D60CE92E1 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11707A2C3B2BFA904956ECBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC039C80BB43CA287696F7A /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720FFCB07887C5DA3D3B0DD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D828A40006E1063F53C7F09D /* AFHTTPRequestOperation.h in Headers */,
+				37922108D0A496EAA71BCC33 /* AFHTTPRequestOperationManager.h in Headers */,
+				EDE988D60AEC4A57CFD17F1C /* AFHTTPSessionManager.h in Headers */,
+				8AF8AC8A8DBEDE86A8137E8C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				CCEC9AF4718149095211B442 /* AFNetworkReachabilityManager.h in Headers */,
+				4AD57807AA5AE6A80A9CEFB9 /* AFNetworking.h in Headers */,
+				7C7B948CE201DCD8E20D8B07 /* AFSecurityPolicy.h in Headers */,
+				300BC01F2C11038A1790CA05 /* AFURLConnectionOperation.h in Headers */,
+				7906217632EAFDA3C25EE06E /* AFURLRequestSerialization.h in Headers */,
+				90080AEB90BCE9B27DE6A729 /* AFURLResponseSerialization.h in Headers */,
+				E7931E78DFBB45377B4F5B56 /* AFURLSessionManager.h in Headers */,
+				6EF00A11E2F10A7D1A8F97D2 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				6D8518824FB08BCB3F276BB6 /* UIAlertView+AFNetworking.h in Headers */,
+				72C5D713AF219D6BC8A324C7 /* UIButton+AFNetworking.h in Headers */,
+				0502A20944CFDA61D6A24972 /* UIImageView+AFNetworking.h in Headers */,
+				EFD9C8E9B72747600790A2A4 /* UIKit+AFNetworking.h in Headers */,
+				17674656EEC717D72765B822 /* UIProgressView+AFNetworking.h in Headers */,
+				492F7F74BFF1626BBD04B208 /* UIRefreshControl+AFNetworking.h in Headers */,
+				E7C4325FC15BBDAC79CA6CA5 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E082FD55C9DA416DDFFAB7DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B47E59934507DF3DDA3F550 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9021230BD8B1BEC315DE47CB /* Pods-HackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4485BC0BCC9399F2C3836C1D /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */;
+			buildPhases = (
+				533711486215967F55074A70 /* Sources */,
+				71ECB36741B80102EB433E2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14290E6915FA8E69EC1E5C2A /* PBXTargetDependency */,
+				0777879952BC67F4A9A7C01E /* PBXTargetDependency */,
+				FA1F469E30E077F9ECA92593 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNews";
+			productName = "Pods-HackerNews";
+			productReference = 3A1CCB644EAFC38EC9318210 /* libPods-HackerNews.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A498446D2E057F9F49E7995F /* Pods-HackerNews-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9CA600DA89EF9A57CF510D2 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-AFNetworking" */;
+			buildPhases = (
+				15B31DF2102F7EAF8774C1F9 /* Sources */,
+				CFD0DD752DEE0A5CDDEDAA82 /* Frameworks */,
+				720FFCB07887C5DA3D3B0DD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackerNews-AFNetworking";
+			productName = "Pods-HackerNews-AFNetworking";
+			productReference = C0B3CF84B6E22F5820CD1E88 /* libPods-HackerNews-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A83181B90B27CE1A37C40184 /* Pods-HackerNews-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D577E9DDCB553F7FBBF6DE57 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-Reachability" */;
+			buildPhases = (
+				2DF6647EE17AAA7F776D92A9 /* Sources */,
+				91B5DBE068E6C8C7F0631FA3 /* Frameworks */,
+				11707A2C3B2BFA904956ECBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackerNews-Reachability";
+			productName = "Pods-HackerNews-Reachability";
+			productReference = 564E5FC2FE55A35A0C0A3190 /* libPods-HackerNews-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1928C829F113FC32F7BE067 /* Pods-HackerNews-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3686CCDAB946D63C85F90F58 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-MBProgressHUD" */;
+			buildPhases = (
+				B31559CE14F0C649D3373B4E /* Sources */,
+				DB641B4FBE4D9582710C4D4E /* Frameworks */,
+				E082FD55C9DA416DDFFAB7DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HackerNews-MBProgressHUD";
+			productName = "Pods-HackerNews-MBProgressHUD";
+			productReference = 1EE589201C00E912CEA63F4F /* libPods-HackerNews-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD53E887443ED8A8411853DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6C0267BD59303C3D52ABE90E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BB281A2B3575C5C5522A041;
+			productRefGroup = B85B6D41CA4327A1EF22763C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9021230BD8B1BEC315DE47CB /* Pods-HackerNews */,
+				A498446D2E057F9F49E7995F /* Pods-HackerNews-AFNetworking */,
+				C1928C829F113FC32F7BE067 /* Pods-HackerNews-MBProgressHUD */,
+				A83181B90B27CE1A37C40184 /* Pods-HackerNews-Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B31DF2102F7EAF8774C1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9159C022F86418BC22FBA6E7 /* AFHTTPRequestOperation.m in Sources */,
+				E4A809BCAAC7835D0EAEE3A0 /* AFHTTPRequestOperationManager.m in Sources */,
+				D414B824A775AFFD6BD4CB10 /* AFHTTPSessionManager.m in Sources */,
+				C3148BDFE22FD22F0B908983 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C22ED1135DC217D4B477318D /* AFNetworkReachabilityManager.m in Sources */,
+				CDEA20C2944F532170D961AD /* AFSecurityPolicy.m in Sources */,
+				DC3C617FFFEA569AF9EE4587 /* AFURLConnectionOperation.m in Sources */,
+				E132E9DDDE74F783137A6ED5 /* AFURLRequestSerialization.m in Sources */,
+				B3EB293E8D1035B51AEC1D8C /* AFURLResponseSerialization.m in Sources */,
+				89D7539F4727D8E2BD54F151 /* AFURLSessionManager.m in Sources */,
+				ACE1075E4CD376EA7B1B2070 /* Pods-HackerNews-AFNetworking-dummy.m in Sources */,
+				A9C83956DC4DF685390CFD1D /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				2A9766CB3ABF2816A9758178 /* UIAlertView+AFNetworking.m in Sources */,
+				C60D8791B960C68A80D08FE5 /* UIButton+AFNetworking.m in Sources */,
+				965FF0CF4EDB50F49FB2C6F2 /* UIImageView+AFNetworking.m in Sources */,
+				D24D0B80D756A0DAD622DD24 /* UIProgressView+AFNetworking.m in Sources */,
+				8B483D03401F7FA0931A9445 /* UIRefreshControl+AFNetworking.m in Sources */,
+				3FD75661BDD576543DA0D297 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF6647EE17AAA7F776D92A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DDD1869D63C12075A2D375 /* Pods-HackerNews-Reachability-dummy.m in Sources */,
+				68566C5CF255370B55CE1B37 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533711486215967F55074A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8D294B16BC6E6F3DB76957 /* Pods-HackerNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31559CE14F0C649D3373B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6659D2CA99F514A019102459 /* MBProgressHUD.m in Sources */,
+				543EBA0302F6CEFDF6E7AC65 /* Pods-HackerNews-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0777879952BC67F4A9A7C01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HackerNews-MBProgressHUD";
+			target = C1928C829F113FC32F7BE067 /* Pods-HackerNews-MBProgressHUD */;
+			targetProxy = CDE4D0FC656916CE3CC6EB3A /* PBXContainerItemProxy */;
+		};
+		14290E6915FA8E69EC1E5C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HackerNews-AFNetworking";
+			target = A498446D2E057F9F49E7995F /* Pods-HackerNews-AFNetworking */;
+			targetProxy = 25D3D2982C1C33EADBBC3AD7 /* PBXContainerItemProxy */;
+		};
+		FA1F469E30E077F9ECA92593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HackerNews-Reachability";
+			target = A83181B90B27CE1A37C40184 /* Pods-HackerNews-Reachability */;
+			targetProxy = 4631CE60E449D9A339813B64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		411A720F12968E55FB045F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E56F1B25674088874D06FC8 /* Pods-HackerNews.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4DEA21378E6FAA236C0785B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD88FA2ECD32FDB330E2656 /* Pods-HackerNews-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-MBProgressHUD/Pods-HackerNews-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56E9A957D926709FD4235B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EBCA8A7D39A4F34A1CEB2D /* Pods-HackerNews.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6CAC6B37B7E6F57638CD917C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1443AE187DB2314152D8C1 /* Pods-HackerNews-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-Reachability/Pods-HackerNews-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D0250CF784F8937C35379FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1443AE187DB2314152D8C1 /* Pods-HackerNews-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-Reachability/Pods-HackerNews-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C29D3CB40CAC134C463D2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D978036112FE0DF0AD5BBD7D /* Pods-HackerNews-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-AFNetworking/Pods-HackerNews-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4E867244CBA7CAC85307C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD88FA2ECD32FDB330E2656 /* Pods-HackerNews-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-MBProgressHUD/Pods-HackerNews-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BAADBD81AA6C12FB3972A483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D978036112FE0DF0AD5BBD7D /* Pods-HackerNews-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HackerNews-AFNetworking/Pods-HackerNews-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D44F222F91B8D26E6CBC5952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC66E7E97738F2D6B81E6754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3686CCDAB946D63C85F90F58 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEA21378E6FAA236C0785B4 /* Debug */,
+				B4E867244CBA7CAC85307C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4485BC0BCC9399F2C3836C1D /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E9A957D926709FD4235B6B /* Debug */,
+				411A720F12968E55FB045F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0267BD59303C3D52ABE90E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44F222F91B8D26E6CBC5952 /* Debug */,
+				FC66E7E97738F2D6B81E6754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D577E9DDCB553F7FBBF6DE57 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAC6B37B7E6F57638CD917C /* Debug */,
+				8D0250CF784F8937C35379FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9CA600DA89EF9A57CF510D2 /* Build configuration list for PBXNativeTarget "Pods-HackerNews-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C29D3CB40CAC134C463D2D4 /* Debug */,
+				BAADBD81AA6C12FB3972A483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD53E887443ED8A8411853DB /* Project object */;
+}
