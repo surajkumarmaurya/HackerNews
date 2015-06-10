@@ -57,7 +57,7 @@
         [self saveStoriesContent:responseObject];
         self.count++;
         if(_isFirstLaunch){
-            if(self.count%500 == 0){
+            if(self.count%50 == 0){
                 [self.topStoryDelegate topStoryDownloadComplete:true];
                 _isFirstLaunch = false;
                 return;

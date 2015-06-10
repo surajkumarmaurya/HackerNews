@@ -10,6 +10,8 @@
 	<string>HackerNews</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>69C84E6E482B7CA1C5241E0003BEF2990A7753B0</key>
+		<string>https://github.com/surajkumarmaurya/HackerNews.git</string>
 		<key>F81C85721D4582FBCA9B44C4516893A9512653DE</key>
 		<string>https://github.com/surajkumarmaurya/Hacker-News.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>HackerNews.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F81C85721D4582FBCA9B44C4516893A9512653DE</key>
+		<key>69C84E6E482B7CA1C5241E0003BEF2990A7753B0</key>
 		<string>..</string>
+		<key>F81C85721D4582FBCA9B44C4516893A9512653DE</key>
+		<string>../../HackerNews</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/surajkumarmaurya/Hacker-News.git</string>
+	<string>https://github.com/surajkumarmaurya/HackerNews.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F81C85721D4582FBCA9B44C4516893A9512653DE</string>
+	<string>69C84E6E482B7CA1C5241E0003BEF2990A7753B0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>F81C85721D4582FBCA9B44C4516893A9512653DE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HackerNews</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69C84E6E482B7CA1C5241E0003BEF2990A7753B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>News</string>
 		</dict>
 	</array>
 </dict>
